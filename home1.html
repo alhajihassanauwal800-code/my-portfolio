@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Portfolio</title>
+</head>
+<style>
+ /* Wannan zai raba su guda biyu */
+.button-container {
+    display: flex;       /* Sa su a jere */
+    gap: 30px;          /* Sarari a tsakanin su */
+    justify-content: center; /* Saka su a tsakiya */
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+/* Tsarin kowane button (General Style) */
+.btn {
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    transition: 0.3s;
+    display: inline-block;
+}
+
+/* Button na farko (Blue) */
+.btn-primary {
+    background-color: #007bff;
+    color: white;
+    border: 2px solid #007bff;
+    border-radius: 3px;
+}
+
+/* Button na biyu (Mai Border kadai ko wata kalar) */
+.btn-secondary {
+    background-color:white;
+    color: #007bff;
+    border: 1px solid #007bff;
+    border-radius: 3px;
+}
+
+/* Idan an dora mouse (Hover Effects) */
+.btn-primary:hover {
+    background-color: #0056b3;
+    
+}
+
+.btn-secondary:hover {
+    background-color: #f8f9fa;
+    
+}
+</style>
+<body>
+
+ <section class="hero">
+    <h1>Hi, I'm <span class="highlight">Auwal Alhaji Hassan</span></h1>
+    <p>IT Professional | Full-Stack Web Developer | Solar Solutions Expert</p>
+    <div class="my-button">
+        <a href="#projects" class="btn-primary">View My Work</a>
+        <a href="#contact" class="btn-secondary">Contact Me</a>
+    </div>
+ </section>
+
+ <section class="about-short">
+    <h2>About Me</h2>
+    <p>I am a dedicated Information Technology student at Bayero University Kano (BUK), passionate about solving real-world problems through code and hardware.</p>
+    <ul>
+        <li><strong>Computing Student:</strong> Currently pursuing a degree at BUK's Faculty of Computing.</li>
+        <li><strong>Tech Enthusiast:</strong> Specialized in Network Security and Solar PV Installation & Maintenance.</li>
+        <li><strong>Web Developer:</strong> Skilled in building dynamic web applications using PHP, MySQL, HTML, and CSS.</li>
+    </ul>
+ </section>
+</body>
+</html>
