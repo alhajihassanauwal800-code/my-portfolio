@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>Projects</title>
+</head>
+
+<style>
+html, body{
+    font-family: Arial, sans-serif;
+    margin:0;
+    height:100%;
+    padding:0;
+    width:100%;
+    background-color:#f2f6ff;
+}
+
+header{
+    background:#411C01;
+    color:white;
+    padding:15px;
+    text-align:center;
+}
+
+.project-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    align-items: stretch;
+}
+
+.project-card {
+    background-color: #f4f4f4;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: 0.3s;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.project-card img {
+    height: 200px; /* Ko duk tsayin da kake so */
+    object-fit: cover; /* Wannan zai hana hoton ya murtsike */
+    width: 100%;
+    border-radius: 5px;
+}
+.project-card:hover {
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+    transform: translateY(-5px);
+}
+
+.project-card h3 {
+    color: #333;
+}
+
+.project-card span {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+    color: #b22222; /* Kalar dake dacewa da menu dinka */
+}
+
+/* Wannan zai mayar da summary ya koma siffar button */
+details summary {
+    background-color: #411C01; /* Kalar blue */
+    color: white;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    list-style: none; /* Don cire alamar kibiya ta gefe */
+    display: inline-block;
+    font-size: 14px;
+    transition: background 0.3s;
+}
+
+details summary:hover {
+    background-color: #0056b3; /* Zai canza idan aka dora mouse */
+}
+
+/* Wannan zai gyara yadda bayanin yake fitowa a kasa */
+details p {
+    background-color: #f9f9f9;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+footer{
+    background:#411C01;
+    color:white;
+    text-align:center;
+    margin-bottom: 30px;
+    padding:10px;
+    
+    
+}
+
+</style>
+ <body>
+ <header>
+<h1>My Personal Portfolio Website</h1>
+</header>
+ 
+<h2 style="text-align:center;">Digital & IT Projects</h2>
+<div class="project-container">
+    <div class="project-card">
+        <img src="sr1.png" alt="Web Dev" style="width:100%;">
+        <h3>Web Development</h3>
+        <p>Custom websites built with HTML, PHP, and MySQL.</p>
+              <details>
+  <summary style="cursor: pointer; color: white; text-decoration: none;">Learn More</summary>
+  <p style="margin-top: 10px; font-size: 0.9em; color: #333;">
+    <strong>Web Development (Innovative Approach)</strong><br>
+    Description: We don’t just build websites; we craft intuitive digital experiences through Innovative UI/UX design that keeps your customers engaged. By integrating PHP and MySQL with modern frameworks, we ensure your business stands out in the digital landscape with high performance and seamless functionality.
+  </p>
+</details>
+    </div>
+    <div class="project-card">
+        <img src="it-security1.jpg" alt="IT Support" style="width:100%;">
+        <h3>IT & Security</h3>
+        <p>Networking setups and system security installations.</p>
+         <details>
+  <summary style="cursor: pointer; color: white; text-decoration: none;">Learn More</summary>
+   <p style="margin-top: 10px; font-size: 0.9em; color: #333;">
+    <strong> IT & Security (Smart Security) </strong><br>
+       Description: "In an ever-evolving digital threat landscape, we stay ahead by utilizing Advanced Reconnaissance & Security strategies to identify vulnerabilities before they are exploited. We specialize in designing secure Network Architectures using Firewall configurations and Data Encryption, ensuring your infrastructure is resilient against modern cyber threats."
+     </p>
+</details>
+    </div>
+    
+    <div class="project-card">
+        <img src="ct.jpg" alt="Web Dev" style="width:100%;">
+        <h3>IT Consulting</h3>
+        <p>Providing technical support and software maintenance.</p>
+        <details>
+  <summary style="cursor: pointer; color: white; text-decoration: none">Learn More</summary>
+  <p style="margin-top: 10px; font-size: 0.9em; color: #333;">
+    <strong> IT Consulting (Future-Ready Solutions)</strong><br>
+       Description: "We empower businesses to embrace the technology of tomorrow. Our consulting services focus on innovative strategies that reduce costs and boost operational efficiency through emerging software solutions. Our goal is to be your strategic partner in driving digital transformation and long-term technical excellence."
+  </p>
+</details>
+    </div>
+</div>
+
+<h2 style="text-align:center;">Bakery & Branding Projects</h2>
+<div class="project-container">
+    <div class="project-card">
+        <img src="packaging-design.jpg" alt="Bakery Branding" style="width:100%;">
+        <h3>Zahra Golden Branding</h3>
+        <p>Professional packaging and logo design for the bakery industry.</p>
+         <details>
+        <summary style="cursor: pointer; color: white; text-decoration: none;">Learn More</summary>
+  <p style="margin-top: 10px; font-size: 0.9em; color: #333;">
+    <strong>Web Development (Innovative Approach)</strong><br>
+    Description: We don’t just build websites; we craft intuitive digital experiences through Innovative UI/UX design that keeps your customers engaged. By integrating PHP and MySQL with modern frameworks, we ensure your business stands out in the digital landscape with high performance and seamless functionality.
+  </p>
+</details>
+    </div>
+    <div class="project-card">
+        <img src="supply-chain.jpg" alt="Wholesale" style="width:100%;">
+        <h3>Supply Chain Management</h3>
+        <p>Coordinating wholesale distribution for food production.</p>
+         <details>
+         <summary style="cursor: pointer; color: white; text-decoration: none;">Learn More</summary>
+  <p style="margin-top: 10px; font-size: 0.9em; color: #333;">
+    <strong>Web Development (Innovative Approach)</strong><br>
+    Description: We don’t just build websites; we craft intuitive digital experiences through Innovative UI/UX design that keeps your customers engaged. By integrating PHP and MySQL with modern frameworks, we ensure your business stands out in the digital landscape with high performance and seamless functionality.
+  </p>
+</details>
+    </div>
+    
+    <div class="project-card">
+        <img src="packaging-design.jpg" alt="Bakery Branding" style="width:100%;">
+        <h3>Zahra Golden Branding</h3>
+        <details>
+        <summary style="cursor: pointer; color: white; text-decoration: none;">Learn More</summary>
+  <p style="margin-top: 10px; font-size: 0.9em; color: #333;">
+    <strong>Web Development (Innovative Approach)</strong><br>
+    Description: We don’t just build websites; we craft intuitive digital experiences through Innovative UI/UX design that keeps your customers engaged. By integrating PHP and MySQL with modern frameworks, we ensure your business stands out in the digital landscape with high performance and seamless functionality.
+  </p>
+</details>
+    </div>
+</div>
+ <p>
+          <footer>
+<p>&copy; 2026 My Portfolio Website</p>
+</footer>
+        
+ </body>
+</html>
