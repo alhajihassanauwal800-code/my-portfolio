@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>Projects</title>
+</head>
+
+<style>
+html, body{
+    font-family: Arial, sans-serif;
+    margin:0;
+    height:100%;
+    padding:0;
+    width:100%;
+    background-color:#f2f6ff;
+}
+
+header{
+    background:#411C01;
+    color:white;
+    padding:15px;
+    text-align:center;
+}
+
+.project-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    align-items: stretch;
+}
+
+.project-card {
+    background-color: #f4f4f4;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: 0.3s;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.project-card img {
+    height: 250px; /* Ko duk tsayin da kake so */
+    object-fit: cover; /* Wannan zai hana hoton ya murtsike */
+    width: 100%;
+    border-radius: 5px;
+}
+.project-card:hover {
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+    transform: translateY(-5px);
+}
+
+.project-card h3 {
+    color: #333;
+}
+
+.project-card span {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+    color: #b22222; /* Kalar dake dacewa da menu dinka */
+}
+
+/* Wannan zai mayar da summary ya koma siffar button */
+details summary {
+    background-color: #411C01; /* Kalar blue */
+    color: white;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    list-style: none; /* Don cire alamar kibiya ta gefe */
+    display: inline-block;
+    font-size: 14px;
+    transition: background 0.3s;
+}
+
+details summary:hover {
+    background-color: #0056b3; /* Zai canza idan aka dora mouse */
+}
+
+/* Wannan zai gyara yadda bayanin yake fitowa a kasa */
+details p {
+    background-color: #f9f9f9;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+
+footer{
+    background:#411C01;
+    color:white;
+    text-align:center;
+    margin-bottom: 30px;
+    padding:10px;
+    
+    
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  background:#411C01;
+  color:white;
+  text-align:center;
+  padding:10px;
+  
+}
+
+.footer a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
+
+</style>
+
+
+</style>
+ <body>
+ <header>
+<h1>My Personal Portfolio Website</h1>
+</header>
+ 
+<h2 style="text-align:center;">Digital & IT Projects</h2>
+<div class="project-container">
+    <div class="project-card">
+        <img src="sr1.png" alt="Web Dev" style="width:100%;">
+        <h3>Web Development</h3>
+        <p>Custom websites built with HTML, PHP, and MySQL.</p>
+              <details>
+  <summary style="cursor: pointer; color: white; text-decoration: none;">Learn More</summary>
+  <p style="margin-top: 10px; font-size: 0.9em; color: #333;">
+    <strong>Web Development (Innovative Approach)</strong><br>
+    Description: We don’t just build websites; we craft intuitive digital experiences through Innovative UI/UX design that keeps your customers engaged. By integrating PHP and MySQL with modern frameworks, we ensure your business stands out in the digital landscape with high performance and seamless functionality.
+  </p>
+</details>
+    </div>
+    <div class="project-card">
+        <img src="it-security1.jpg" alt="IT Support" style="width:100%;">
+        <h3>IT & Security</h3>
+        <p>Networking setups and system security installations.</p>
+         <details>
+  <summary style="cursor: pointer; color: white; text-decoration: none;">Learn More</summary>
+   <p style="margin-top: 10px; font-size: 0.9em; color: #333;">
+    <strong> IT & Security (Smart Security) </strong><br>
+       Description: "In an ever-evolving digital threat landscape, we stay ahead by utilizing Advanced Reconnaissance & Security strategies to identify vulnerabilities before they are exploited. We specialize in designing secure Network Architectures using Firewall configurations and Data Encryption, ensuring your infrastructure is resilient against modern cyber threats."
+     </p>
+</details>
+    </div>
+    
+    <div class="project-card">
+        <img src="ct.jpg" alt="Web Dev" style="width:100%;">
+        <h3>IT Consulting</h3>
+        <p>Providing technical support and software maintenance.</p>
+        <details>
+  <summary style="cursor: pointer; color: white; text-decoration: none">Learn More</summary>
+  <p style="margin-top: 10px; font-size: 0.9em; color: #333;">
+    <strong> IT Consulting (Future-Ready Solutions)</strong><br>
+       Description: "We empower businesses to embrace the technology of tomorrow. Our consulting services focus on innovative strategies that reduce costs and boost operational efficiency through emerging software solutions. Our goal is to be your strategic partner in driving digital transformation and long-term technical excellence."
+  </p>
+</details>
+    </div>
+</div>
+
+<h2 style="text-align:center;">Bakery, Branding Projects & Graphic Design</h2>
+<div class="project-container">
+    <div class="project-card">
+        <img src="brand.png" alt="Bakery Branding" style="width:100%;">
+        <h3>Company Branding</h3>
+        <p>Professional packaging and logo design for the company and industry.</p>
+         <details>
+        <summary style="cursor: pointer; color: white; text-decoration: none;">Learn More</summary>
+  <p style="margin-top: 10px; font-size: 0.9em; color: #333;">
+    <strong>Comprehensive Identity Design
+</strong><br>
+ We specialize in crafting unique brand identities that resonate with your target audience. From professional logo creation to custom packaging solutions, we ensure your business maintains a consistent and premium look across all platforms. Our goal is to turn your business into a recognizable brand.
+  </p>
+</details>
+    </div>
+    <div class="project-card">
+        <img src="bread11.jpg" alt="Wholesale" style="width:100%;">
+        <h3>Supply Chain Management</h3>
+        <p>Coordinating wholesale distribution for food production.</p>
+         <details>
+         <summary style="cursor: pointer; color: white; text-decoration: none;">Learn More</summary>
+  <p style="margin-top: 10px; font-size: 0.9em; color: #333;">
+    <strong>Efficient Distribution & Logistics</strong><br>
+   We streamline the process of moving products from production to the final consumer. Our supply chain solutions focus on maintaining product freshness, optimizing delivery routes, and managing wholesale distribution to ensure that Zahra Golden products reach every shelf on time and in perfect condition.
+  </p>
+</details>
+    </div>
+    
+    <div class="project-card">
+        <img src="grph.jpg " alt="Bakery Branding" style="width:100%;">
+        <h3>Graphic Design</h3>
+        <p>Turn imagination into reality.
+Let your design speak.</p>
+        <details>
+        <summary style="cursor: pointer; color: white; text-decoration: none;">Learn More</summary>
+  <p style="margin-top: 10px; font-size: 0.9em; color: #333;">
+    <strong>Creative Visual Communication
+</strong><br>
+    We bring ideas to life through high-quality graphic design. Our focus is on creating visually stunning assets that communicate your brand's message effectively. Whether it's digital graphics or print-ready materials, we ensure every design is crafted with precision and creativity to leave a lasting impression.
+  </p>
+</details>
+    </div>
+</div>
+ 
+ <footer class="footer">
+  <a href=" services.html" class="prev">← Previous</a>
+  <p>© 2026 AA.Hassan Tech.-All Rights Reserved.</p>
+  <a href="contacts.html" class="next">Next →</a>
+
+
+</footer>
+        
+ </body>
+</html>
